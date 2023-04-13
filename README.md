@@ -10,4 +10,5 @@ Both used for fixing common MadUI v5 issues.<br>
 4. Use the "<b>CD</b>" command to navigate to the files directory.<br>(eg. cd C:\Users\User\Documents\MadUI-Tools-v5\MadV5_FixBSOD)<br>
 5. Type "<b>pip install -r requirements.txt</b>" on the CMD window.<br>
 6. Run main.py<br><br>
-Note: When installing Pyhton, make sure to check the "ADD PYTHON TO PATH" option.
+Note: When installing Pyhton, make sure to check the "ADD PYTHON TO PATH" option.<br><br>
+If any issue occurs, feel free to contact me. I recommend using the compiled (exe) version if you are finding this complicated.

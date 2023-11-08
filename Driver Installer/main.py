@@ -26,8 +26,8 @@ response = requests.get(URL)
 open("ndp48-web.exe", "wb").write(response.content)
 
 print("Clearing Temp and Prefetch...")
-subprocess.run(["cmd", "/c", "rmdir", "/s", "/q", "C:\\Windows\\Temp"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-subprocess.run(["cmd", "/c", "rmdir", "/s", "/q", "C:\\Windows\\Prefetch"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+subprocess.run("cmd /c rmdir /s /q C:\\Windows\\Temp", stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+subprocess.run("cmd /c rmdir /s /q C:\\Windows\\Prefetch", stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 print("Extracting Files...")
 with zipfile.ZipFile('redist.zip', 'r') as zip_ref:
